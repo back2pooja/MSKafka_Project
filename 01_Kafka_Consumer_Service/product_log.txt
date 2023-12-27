@@ -1,0 +1,98 @@
+2023-12-27T16:40:57.167+05:30  INFO 20632 --- [restartedMain] com.net.Application                      : Starting Application using Java 17.0.9 with PID 20632 (D:\Project Assignment-2\01_Kafka_Consumer_Service\target\classes started by pjaiswar in D:\Project Assignment-2\01_Kafka_Consumer_Service)
+2023-12-27T16:40:57.169+05:30  INFO 20632 --- [restartedMain] com.net.Application                      : The following 1 profile is active: "default"
+2023-12-27T16:40:57.217+05:30  INFO 20632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-27T16:40:57.217+05:30  INFO 20632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-27T16:40:58.144+05:30  INFO 20632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-27T16:40:58.287+05:30  INFO 20632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 134 ms. Found 1 JPA repository interface.
+2023-12-27T16:40:58.538+05:30  INFO 20632 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=b1d0555f-ca53-363b-aabe-de6280aed530
+2023-12-27T16:40:59.146+05:30  INFO 20632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-12-27T16:40:59.154+05:30  INFO 20632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-27T16:40:59.155+05:30  INFO 20632 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-27T16:40:59.229+05:30  INFO 20632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-27T16:40:59.229+05:30  INFO 20632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2010 ms
+2023-12-27T16:40:59.565+05:30  INFO 20632 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27T16:40:59.658+05:30  INFO 20632 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.17.Final
+2023-12-27T16:40:59.661+05:30  INFO 20632 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-27T16:41:00.004+05:30  INFO 20632 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-27T16:41:00.037+05:30  INFO 20632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-27T16:41:00.338+05:30  INFO 20632 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@328fa41
+2023-12-27T16:41:00.340+05:30  INFO 20632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-27T16:41:00.405+05:30  WARN 20632 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-27T16:41:00.406+05:30  WARN 20632 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-27T16:41:01.312+05:30  INFO 20632 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27T16:41:01.504+05:30  INFO 20632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-27T16:41:01.546+05:30  WARN 20632 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productRestController': Unsatisfied dependency expressed through method 'setProductService' parameter 0: No qualifying bean of type 'com.net.service.ProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-12-27T16:41:01.547+05:30  INFO 20632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-27T16:41:01.552+05:30  INFO 20632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-27T16:41:01.567+05:30  INFO 20632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-27T16:41:01.570+05:30  INFO 20632 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-27T16:41:01.589+05:30  INFO 20632 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-12-27T16:41:01.616+05:30 ERROR 20632 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setProductService in com.net.rest.ProductRestController required a bean of type 'com.net.service.ProductService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.net.service.ProductService' in your configuration.
+
+2023-12-27T16:54:21.099+05:30  INFO 31140 --- [restartedMain] com.net.Application                      : Starting Application using Java 17.0.9 with PID 31140 (D:\Project Assignment-2\01_Kafka_Consumer_Service\target\classes started by pjaiswar in D:\Project Assignment-2\01_Kafka_Consumer_Service)
+2023-12-27T16:54:21.100+05:30  INFO 31140 --- [restartedMain] com.net.Application                      : The following 1 profile is active: "default"
+2023-12-27T16:54:21.153+05:30  INFO 31140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-27T16:54:21.153+05:30  INFO 31140 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-27T16:54:22.085+05:30  INFO 31140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-27T16:54:22.216+05:30  INFO 31140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
+2023-12-27T16:54:22.467+05:30  INFO 31140 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f2a3d9fb-b783-33a0-85ea-7cb323ed71c9
+2023-12-27T16:54:23.076+05:30  INFO 31140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2222 (http)
+2023-12-27T16:54:23.087+05:30  INFO 31140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-27T16:54:23.087+05:30  INFO 31140 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.17]
+2023-12-27T16:54:23.182+05:30  INFO 31140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-27T16:54:23.184+05:30  INFO 31140 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2030 ms
+2023-12-27T16:54:23.473+05:30  INFO 31140 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-27T16:54:23.515+05:30  INFO 31140 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.17.Final
+2023-12-27T16:54:23.517+05:30  INFO 31140 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-27T16:54:23.745+05:30  INFO 31140 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-27T16:54:23.772+05:30  INFO 31140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-27T16:54:24.057+05:30  INFO 31140 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9bc8a99
+2023-12-27T16:54:24.059+05:30  INFO 31140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-27T16:54:24.104+05:30  WARN 31140 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-12-27T16:54:24.106+05:30  WARN 31140 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-12-27T16:54:24.920+05:30  INFO 31140 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-12-27T16:54:24.971+05:30  INFO 31140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-27T16:54:25.225+05:30  WARN 31140 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-27T16:54:26.968+05:30  INFO 31140 --- [restartedMain] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+2023-12-27T16:54:27.358+05:30  WARN 31140 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.kafka.KafkaAnnotationDrivenConfiguration': Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'spring.kafka-org.springframework.boot.autoconfigure.kafka.KafkaProperties': Could not bind properties to 'KafkaProperties' : prefix=spring.kafka, ignoreInvalidFields=false, ignoreUnknownFields=true
+2023-12-27T16:54:27.362+05:30  INFO 31140 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-27T16:54:27.365+05:30  INFO 31140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-27T16:54:27.378+05:30  INFO 31140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-27T16:54:27.381+05:30  INFO 31140 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-27T16:54:27.398+05:30  INFO 31140 --- [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-12-27T16:54:27.419+05:30 ERROR 31140 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.kafka.consumer.key-deserializer' to java.lang.Class<?>:
+
+    Property: spring.kafka.consumer.key-deserializer
+    Value: "org.apache.kafka.common.serializetion.StringDeserializer"
+    Origin: class path resource [application.properties] - 3:40
+    Reason: failed to convert java.lang.String to java.lang.Class<?> (caused by java.lang.ClassNotFoundException: org.apache.kafka.common.serializetion.StringDeserializer)
+
+Action:
+
+Update your application's configuration
+

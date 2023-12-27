@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "kafka.status.producer",
+      "type": "com.net.config.KafkaConsumerConfig",
+      "sourceType": "com.net.config.KafkaConsumerConfig"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
